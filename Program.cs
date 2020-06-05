@@ -23,7 +23,7 @@ namespace MultiplesOf3_5
             // Then we loop every multiple of 3 up to a 1000 and add it to the list.
             for (int i = 1; i <= 1000; i++)
             {
-                // Checks to see if i is a multiple of 3 or 5 by checking their remainders.
+                // Checks to see if i is a multiple of 3 or 5 by checking the remainders equal to 0.
                 if (i % 3 == 0 || i % 5 == 0)
                 {
                     multiples.Add(i);
